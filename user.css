@@ -47,8 +47,43 @@ section{
     margin-left: 20px;
 }
 
+/*----------------------------nav container---------------------------*/
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    background: rgba(0,0,0,.75);
+}
+
+.nav_menu{
+    flex: 1; 
+}
+/*.nav_black{
+    background-color: #111;
+}*/
+
+.nav_logo{
+    width: 80px;
+    object-fit: contain;
+    
+}
+
+.avata{
+    width: 30px;
+    object-fit: contain;
+
+}
+
 header{
-    background-image: url(netflix_images/flex1.png);
+    background-image: url(netflix_images/money-heist.jpg);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -100,3 +135,17 @@ p{
     background-color: #e6e6e6;
     transition: all 0.2s;
 }
+
+.fade{
+    margin-top: 145px;
+    height:7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+
+
+
+
+
+
+
+
